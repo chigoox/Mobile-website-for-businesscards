@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Fredoka+One&family=Karla&family=Lilita+One&family=Mr+Dafoe&family=Nerko+One&family=Poppins:wght@500&family=Righteous&family=Roboto:wght@500&family=Solway:wght@500&family=Teko:wght@400;700&family=Ubuntu&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --BGColor: #fff;
+  --TextColor: rgb(255, 255, 255);
+  --SubTextColor: rgb(58, 58, 58);
+  --BodyTextColor: rgb(0, 0, 0);
+  --BodySubTextColor: rgb(58, 58, 58);
+  --AccentColor: #fff;
+  --ButtonColor: rgba(25, 23, 36, 0);
+  --buttonHover: rgb(54, 46, 99);
+  --ProfileColor: #fff;
+  --headerColor: rgb(5, 11, 26);
+
+}
+
+*{
+  font-family: 'Teko', sans-serif;
+}
+
+
