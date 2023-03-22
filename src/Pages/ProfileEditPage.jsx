@@ -132,7 +132,6 @@ export default function ProfileEditPage() {
   }
 
 
-  console.log(editedData)
   function handleChangeInputPP(event) {
 
     if (event.target.name == 'Avatar') {
@@ -156,8 +155,6 @@ export default function ProfileEditPage() {
   docExist(uid)
   const submitImg = () => {
     DataSetter('Avatar', avatarURL)
-    console.log('newurl = avatar = ' + newURL == (avatarURL))
-    console.log('show button ')
 
   }
 
