@@ -1,5 +1,4 @@
 import React, { useState} from 'react';
-import Buttons from '../Componets/Buttons';
 import SignUpPage from '../Componets/LoginComponets/SignUpPage';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword  } from "firebase/auth";
 import LoginError from '../Componets/LoginComponets/LoginError';
